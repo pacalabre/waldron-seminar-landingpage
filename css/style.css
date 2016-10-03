@@ -32,10 +32,9 @@
   text-align: center;
 }
 
-/* RSVP Form */
-
-/*form {
-  text-align: center;
+/*.no-radio-label {
+  margin-top: -20px;
+  margin-left: 20px;
 }*/
 
 input[type = text] {
@@ -61,9 +60,9 @@ fieldset {
   margin-top: 5%;
 }
 
-/*.label-button {
-  color: black;
-}*/
+.label-button {
+  display: inline;
+}
 
 .submit-wrapper {
   padding: 0px 5%;
@@ -181,13 +180,6 @@ footer {
   font-size: 40px;
   }
 
- /* p, .form-group-label, .label-button ,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
-    font-size: 20px;
-  }
-
-  input[type=text] {
-    width: 60%;
-  }*/
 
   .company-logo {
     width: 20%;
@@ -248,16 +240,6 @@ footer {
   .section-h2 {
   font-size: 45px;
   }
-
-
-
- /* p, .form-group-label,[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
-    font-size: 24px;
-  }
-
-  input[type=text] {
-    width: 45%;
-  }*/
 
   .company-logo {
     width: 15%;
